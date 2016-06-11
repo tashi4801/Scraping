@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript">
+	function check(){
+		var a = document.getElementById("i0").value;
+		var b = document.getElementById("i1").value;
+		document.getElementById("r0").textContent = (a == b);
+// 		document.getElementById("r0").textContent = (a)
+	}
+</script>
+</head>
+<body>
+a:<input id ="i0"/>
+b:<input id ="i1"/>
+<button onclick="check();">チェック</button>
+<br>
+a==b:<span id="r0"></span>
+</body>
+</html>
